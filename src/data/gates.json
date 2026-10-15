@@ -1,0 +1,58 @@
+[
+  {
+    "id": "gate-01",
+    "nameAr": "بوابة النور",
+    "nameEn": "Gate of Light",
+    "status": "OPEN",
+    "level": 1,
+    "location": "قطاع 7 - شطره",
+    "descriptionAr": "البوابة الأولى التي تم اكتشافها، تصدر ضوء أزرق مستمر وتسمح بمرور المواد العضوية.",
+    "descriptionEn": "First discovered gate",
+    "committeeId": "com-1",
+    "orgId": "org-dev",
+    "lastActivity": "2026-10-14T22:00:00Z",
+    "energy": 87
+  },
+  {
+    "id": "gate-02",
+    "nameAr": "بوابة مغلقة",
+    "nameEn": "Sealed Gate",
+    "status": "SEALED",
+    "level": 5,
+    "location": "قطاع 12 - غير معروف",
+    "descriptionAr": "بوابة مغلقة بإحكام بواسطة اللجنة العليا بعد حادثة 2023. أي محاولة فتح تعتبر خرق بروتوكول.",
+    "descriptionEn": "Sealed after incident",
+    "committeeId": "com-2",
+    "orgId": "org-com",
+    "lastActivity": "2023-11-02T10:00:00Z",
+    "energy": 0
+  },
+  {
+    "id": "gate-03",
+    "nameAr": "بوابة الظل",
+    "nameEn": "Shadow Gate",
+    "status": "UNSTABLE",
+    "level": 3,
+    "location": "قطاع 3 - أطلال",
+    "descriptionAr": "غير مستقرة، تفتح وتغلق بشكل عشوائي كل 6-9 دقائق. تتطلب مراقبة مستمرة.",
+    "descriptionEn": "Unstable gate",
+    "committeeId": "com-1",
+    "orgId": "org-media",
+    "lastActivity": "2026-10-15T08:12:00Z",
+    "energy": 45
+  },
+  {
+    "id": "gate-04",
+    "nameAr": "بوابة الصدى",
+    "nameEn": "Echo Gate",
+    "status": "CLOSED",
+    "level": 2,
+    "location": "قطاع 9 - مختبر",
+    "descriptionAr": "مغلقة حاليا للصيانة. تستخدم لنقل المعلومات فقط.",
+    "descriptionEn": "Closed for maintenance",
+    "committeeId": "com-3",
+    "orgId": "org-dev",
+    "lastActivity": "2026-10-10T14:00:00Z",
+    "energy": 12
+  }
+]

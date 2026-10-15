@@ -1,0 +1,29 @@
+[
+  {
+    "id": "org-dev",
+    "nameAr": "قسم التطوير",
+    "nameEn": "Development Division",
+    "type": "RESEARCH",
+    "founded": "2020",
+    "descriptionAr": "تطوير تقنيات السفر عبر البوابات.",
+    "gatesManaged": 2
+  },
+  {
+    "id": "org-com",
+    "nameAr": "القسم التجاري",
+    "nameEn": "Commercial Division",
+    "type": "COMMERCIAL",
+    "founded": "2021",
+    "descriptionAr": "استغلال البوابات لأغراض لوجستية.",
+    "gatesManaged": 1
+  },
+  {
+    "id": "org-media",
+    "nameAr": "القسم الإعلامي",
+    "nameEn": "Media Division",
+    "type": "MEDIA",
+    "founded": "2022",
+    "descriptionAr": "توثيق وأرشفة ظواهر البوابات.",
+    "gatesManaged": 1
+  }
+]

@@ -1,0 +1,16 @@
+// Future DB - for now using JSON, later switch to Supabase
+generator client { provider = "prisma-client-js" }
+datasource db { provider = "sqlite" url = "file:./dev.db" }
+
+model Gate {
+  id String @id
+  nameAr String
+  nameEn String
+  status String // OPEN, CLOSED, UNSTABLE, SEALED
+  level Int
+  committeeId String
+  orgId String
+}
+
+model Committee { id String @id @unique nameAr String nameEn String members Int }
+model Organization { id String @id @unique nameAr String nameEn String type String }

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "com-1",
+    "nameAr": "لجنة البوابات الأولية",
+    "nameEn": "Primary Gates Committee",
+    "role": "الاكتشاف والتصنيف",
+    "members": 12,
+    "gateCount": 2,
+    "descriptionAr": "مسؤولة عن اكتشاف البوابات الجديدة وتصنيفها حسب الخطورة.",
+    "color": "#3B82F6"
+  },
+  {
+    "id": "com-2",
+    "nameAr": "لجنة الإغلاق والاحتواء",
+    "nameEn": "Containment Committee",
+    "role": "الإغلاق والحماية",
+    "members": 8,
+    "gateCount": 1,
+    "descriptionAr": "تتعامل مع البوابات الخطرة وتطبق بروتوكولات الإغلاق.",
+    "color": "#EF4444"
+  },
+  {
+    "id": "com-3",
+    "nameAr": "اللجنة التقنية",
+    "nameEn": "Technical Committee",
+    "role": "الصيانة والبحث",
+    "members": 15,
+    "gateCount": 1,
+    "descriptionAr": "تطوير تقنيات التحكم بالبوابات.",
+    "color": "#10B981"
+  }
+]
