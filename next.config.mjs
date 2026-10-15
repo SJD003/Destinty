@@ -2,7 +2,8 @@
 const nextConfig = {
   output: 'export',
   images: { unoptimized: true },
-  basePath: process.env.NODE_ENV === 'production' ? '/Destinty' : '',
+  basePath: '/Destinty',
+  assetPrefix: '/Destinty/',
   trailingSlash: true,
 };
 export default nextConfig;
