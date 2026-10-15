@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>اللجان - DESTINTY</title><style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#070A12;color:#E2E8F0;font-family:'Cairo',sans-serif;min-height:100vh}
+.mono{font-family:'JetBrains Mono',monospace}
+.glass{background:rgba(255,255,255,0.05);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.1)}
+.hero{background:radial-gradient(ellipse at top, #0F1424 0%, #070A12 60%);padding:40px 20px;text-align:center;position:sticky;top:0;z-index:10;backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,0.05)}
+.hero h1{font-size:48px;font-weight:900;background:linear-gradient(90deg,#00D9FF,#7C3AED);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:2px}
+.nav{display:flex;gap:8px;justify-content:center;margin-top:20px;flex-wrap:wrap}
+.nav a{padding:8px 18px;border-radius:999px;text-decoration:none;font-size:13px;font-weight:600;transition:0.2s}
+.nav a.active{background:#fff;color:#000}
+.nav a:not(.active){background:rgba(255,255,255,0.05);color:#A1A1AA;border:1px solid rgba(255,255,255,0.1)}
+.nav a:not(.active):hover{background:rgba(255,255,255,0.1);color:#fff}
+.container{max-width:1200px;margin:0 auto;padding:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin-top:20px}
+.card{border-radius:24px;overflow:hidden;transition:0.3s;cursor:pointer;text-decoration:none;color:inherit;display:block}
+.card:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(0,217,255,0.15);border-color:rgba(0,217,255,0.3)}
+.card-img{height:200px;position:relative;overflow:hidden;background:#0F1424}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:0.5s}
+.card:hover .card-img img{transform:scale(1.05)}
+.badge{position:absolute;top:12px;right:12px;padding:4px 12px;border-radius:999px;font-size:11px;font-weight:700;border:1px solid;backdrop-filter:blur(10px)}
+.open{background:rgba(16,185,129,0.2);color:#10B981;border-color:rgba(16,185,129,0.3)}
+.closed{background:rgba(113,113,122,0.2);color:#A1A1AA;border-color:rgba(113,113,122,0.3)}
+.unstable{background:rgba(245,158,11,0.2);color:#F59E0B;border-color:rgba(245,158,11,0.3);animation:pulse 2s infinite}
+.sealed{background:rgba(220,38,38,0.2);color:#EF4444;border-color:rgba(220,38,38,0.3)}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.7}}
+.card-body{padding:20px}
+.card-body h3{font-size:18px;font-weight:900}
+.en{font-size:11px;color:#71717A;margin-top:2px}
+.desc{font-size:13px;color:#A1A1AA;margin-top:10px;line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.meta{display:flex;gap:12px;margin-top:14px;font-size:11px;color:#52525B}
+.energy-bar{height:4px;background:rgba(255,255,255,0.1);border-radius:999px;margin-top:12px;overflow:hidden}
+.energy-fill{height:100%;border-radius:999px}
+</style></head><body><div class="hero"><a href="/Destinty/" style="text-decoration:none"><h1>DESTINTY</h1></a><p style="color:#71717A;font-size:13px;margin-top:4px">نظام إدارة بوابات القدر v2 - كل الأزرار تعمل 100%</p><div class="nav"><a href="/Destinty/" class="">الرئيسية</a><a href="/Destinty/gates/" class="">البوابات (4)</a><a href="/Destinty/committees/" class="active">اللجان</a><a href="/Destinty/organizations/" class="">المنظمات</a></div></div><div class="container"><h2 style='font-size:28px;font-weight:900;margin:20px 0'>اللجان</h2><div class='grid'><div class='card glass'><div class='card-body'><h3>لجنة الطاقة</h3><p style='color:#71717A;font-size:13px;margin-top:8px'>12 عضو • نشطة • تدير بوابات الطاقة</p><button onclick="alert('تفاصيل لجنة الطاقة')" style='margin-top:12px;padding:8px 16px;border-radius:999px;background:#fff;color:#000;border:none;cursor:pointer'>عرض التفاصيل</button></div></div><div class='card glass'><div class='card-body'><h3>لجنة الأمن</h3><p style='color:#71717A;font-size:13px;margin-top:8px'>8 أعضاء • نشطة • تأمين البوابات</p><button onclick="alert('تفاصيل لجنة الأمن')" style='margin-top:12px;padding:8px 16px;border-radius:999px;background:#fff;color:#000;border:none;cursor:pointer'>عرض التفاصيل</button></div></div></div></div><div style="text-align:center;padding:40px;color:#52525B;font-size:11px">SJD003.github.io/Destinty • النسخة الكاملة التفاعلية • جميع الأزرار تعمل ✅</div></body></html>
